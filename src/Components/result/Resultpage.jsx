@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import axios from 'axios';
-import './Resultpage.css'; // Import your Google clone CSS file
+import './resultpage.css'; 
 
 const ResultPage = () => {
   const location = useLocation();
