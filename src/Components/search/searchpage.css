@@ -1,0 +1,61 @@
+/* GoogleClone.css */
+
+/* ... (previous styles) */
+
+.lookle-banner {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .lookle-text {
+    font-size: 36px;
+    font-weight: bold;
+    color: #4285f4; /* Google's blue color */
+  }
+  
+  .google-clone-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f1f1f1;
+  }
+  
+  .google-search-bar {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 600px;
+    background-color: #fff;
+    border-radius: 24px;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .google-search-icon {
+    padding: 8px;
+  }
+  
+  .google-search-input {
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 16px;
+  }
+  
+  .google-search-button {
+    background-color: #4285f4;
+    color: #fff;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 24px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 8px;
+    outline: none;
+    transition: background-color 0.3s;
+  }
+  
+  .google-search-button:hover {
+    background-color: #2d70f7;
+  }

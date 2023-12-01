@@ -1,0 +1,168 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
+
+/* App.css */
+/* styles.css */
+/* Tailwind CSS styles */
+
+/* @import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.search-page {
+  text-align: center;
+  padding-top: 4rem;
+}
+
+.search-form {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.search-input {
+  width: 16rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #d1d5db;
+  border-radius: 0.25rem 0 0 0.25rem;
+}
+
+.search-button {
+  padding: 0.5rem;
+  font-size: 1rem;
+  background-color: #2563eb;
+  color: #fff;
+  border: 1px solid #2563eb;
+  border-radius: 0 0.25rem 0.25rem 0;
+  cursor: pointer;
+}
+
+.results {
+  list-style: none;
+  padding: 0;
+}
+
+.result-item {
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border: 1px solid #d1d5db;
+  border-radius: 0.25rem;
+} */
+
+
+
+/* App.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* SearchPage.css */
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.search-input {
+  width: 70%;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.search-button {
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* ResultPage.css */
+
+.results-container {
+  padding: 20px;
+}
+
+.results-list {
+  list-style: none;
+  padding: 0;
+}
+
+.result-item {
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.result-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.result-description {
+  font-size: 14px;
+  color: #555;
+}
+
+/* Add more styles as needed */
