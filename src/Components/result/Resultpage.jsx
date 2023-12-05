@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import axios from 'axios';
-import './resultpage.css'; 
+import './Resultpage.css'; 
 
 const ResultPage = () => {
   const location = useLocation();
@@ -12,7 +12,7 @@ const ResultPage = () => {
       const searchTerm = location.search.substring(7); // Remove "?query=" from the search query
 
       try {
-        const apiKey = process.env.REACT_APP_API_KEY;
+        
         const response = await axios.get(
           `https://google-search74.p.rapidapi.com/`,
           {
@@ -22,7 +22,7 @@ const ResultPage = () => {
               related_keywords: 'true',
             },
             headers: {
-              'X-RapidAPI-Key': apiKey,
+              'X-RapidAPI-Key': 'd4f5451bd9msh258b8794bb9de85p1665b0jsn2c9d9b5a3917',
               'X-RapidAPI-Host': 'google-search74.p.rapidapi.com',
             },
           }
